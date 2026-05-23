@@ -19,6 +19,28 @@
     Espace ressources — Programme SOUVERAINE
 </div>
 
+<script>
+let password = prompt("Entrez le mot de passe SOUVERAINE");
+
+if (password !== "SOUVERAINE2026") {
+    document.body.innerHTML = `
+    <div style="
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        flex-direction:column;
+        font-family:Georgia, serif;
+        background:#f5f1eb;
+        color:#1f1f1f;
+    ">
+        <h1>Accès refusé</h1>
+        <p>Mot de passe incorrect.</p>
+    </div>
+    `;
+}
+</script>
+
 <section>
 
     <img src="logo.jpg" class="logo">
@@ -115,7 +137,7 @@
 
         <a class="bouton" href="audio_souveraine1.mp3">Écouter l’audio</a>
         <br>
-        <a class="bouton" href="protocole_ancrage.pdf">Protocole d’ancrage</a>
+        <a class="bouton" href="Comment méditer les etapes d'emc.pdf">Protocole d’ancrage</a>
     </div>
 
     <div class="carte">
