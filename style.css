@@ -97,7 +97,8 @@ h2 {
     color: #6d8a78;
 }
 
-p, li {
+p,
+li {
     font-size: 20px;
     line-height: 1.7;
 }
@@ -364,6 +365,4 @@ footer p {
         font-size: 18px;
     }
 
-}
-}
 }
