@@ -328,7 +328,6 @@ footer p {
         width: 140px;
         height: 250px;
     }
-
 /* WHATSAPP FLOTTANT */
 
 .whatsappfixe {
@@ -346,6 +345,10 @@ footer p {
     z-index: 999;
 }
 
+.whatsappfixe:hover {
+    background: #1f1f1f;
+}
+
 @media screen and (max-width: 768px) {
 
     .whatsappfixe {
@@ -357,4 +360,5 @@ footer p {
         font-size: 18px;
     }
 
+}
 }
