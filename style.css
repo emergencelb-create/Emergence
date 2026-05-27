@@ -322,4 +322,73 @@ footer p {
         width: 150px;
         height: 270px;
     }
+
+/* MENU MOBILE SIMPLE */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 15px 10px;
+    }
+
+    nav a {
+        width: auto;
+        padding: 8px 12px;
+        font-size: 14px;
+        margin: 0;
+        background: rgba(255,255,255,0.7);
+        border-radius: 20px;
+    }
+
+    .mini {
+        display: none;
+    }
+
+    .bannierephrase {
+        position: relative;
+        top: 0;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .bannierepdf {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 38px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p,
+    li {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .carte,
+    .appel {
+        padding: 22px;
+        margin: 25px auto;
+    }
+
+    .bouton {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 17px;
+        padding: 16px;
+    }
+
+}
+
+
 }
