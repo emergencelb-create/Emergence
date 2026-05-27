@@ -288,7 +288,8 @@ footer p {
         font-size: 24px;
     }
 
-    p, li {
+    p,
+    li {
         font-size: 17px;
         line-height: 1.6;
     }
@@ -328,6 +329,9 @@ footer p {
         width: 140px;
         height: 250px;
     }
+
+}
+
 /* WHATSAPP FLOTTANT */
 
 .whatsappfixe {
@@ -360,5 +364,6 @@ footer p {
         font-size: 18px;
     }
 
+}
 }
 }
