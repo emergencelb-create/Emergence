@@ -2,193 +2,80 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Témoignages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Témoignages — LB Coaching</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .section-temoignage { margin: 40px 0; }
+        .galerie { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; align-items: start; }
+        /* Photos réduites pour gagner en compacité */
+        .photo-preuve { width: 100%; max-width: 200px; border-radius: 8px; border: 1px solid #d8d0c5; display: block; margin: 0 auto; }
+        .video-temoin { width: 100%; max-width: 400px; display: block; margin: 20px auto; border-radius: 8px; }
+    </style>
 </head>
 
 <body>
 
-
 <nav>
-
-    <a href="index.html">
-        Accueil
-    </a>
-
-    <a href="commencer.html">
-        Commencer<br>ici
-    </a>
-
-    <a href="pdfvente10routines.html">
-        Petit prix<br>27€
-    </a>
-
-    <a href="programme.html">
-        Programme<br>ÉMERGENCE
-        <span class="mini">2 mois</span>
-    </a>
-
-    <a href="souveraine.html">
-        Programme<br>SOUVERAINE
-        <span class="mini">6 mois</span>
-    </a>
-
-    <a href="coaching.html">
-        Coaching<br>1h
-    </a>
-
-    <a href="blog.html">
-        Blog
-    </a>
-
-    <a href="temoignages.html">
-        Témoignages
-    </a>
-
-    <a href="apropos.html">
-        À propos
-    </a>
-
-    <a href="contact.html">
-        Contact
-    </a>
-
+    <a href="index.html">Accueil</a>
+    <a href="commencer.html">Commencer ici</a>
+    <a href="blog.html">Blog</a>
+    <a href="temoignages.html">Témoignages</a>
+    <a href="contact.html">Contact</a>
+    <a href="pdfvente10routines.html" style="color: #d4af37; font-weight: bold;">Guide 27€</a>
 </nav>
 
 <div class="bannierephrase">
     Arrêter de tenir. Commencer à vivre.
 </div>
 
-
 <a class="bannierepdf" href="pdfvente10routines.html">
     Nouveau guide — 10 routines pour sortir du mode survie • 27€
 </a>
 
+
 <section>
+    <img src="logo.jpg" class="logo">
+    <h1>Témoignages & Preuves</h1>
 
-<img src="logo.jpg" class="logo">
-
-    <h1>Témoignages</h1>
-
-    <p>
-        Des parcours de transformation, de reprise de confiance
-        et de retour à soi.
-    </p>
-<p class="citation">
-Des évolutions réelles.<br>
-Des prises de conscience.<br>
-Des personnes qui ont repris leur place.
-</p><div class="carte">
-
-
-<div class="carte">
-
-    <h2>Témoignages vidéo</h2>
-
-  
-
-  <video class="videoverticale" controls>
-    <source src="./temoignage1.mp4" type="video/mp4">
-    Votre navigateur ne peut pas lire cette vidéo.
-</video>
-
-  <p>
-        Retours d’expérience, évolutions,
-        prises de conscience et transformations.
-    </p>
-
- <a class="bouton" href="https://wa.me/33618777389?text=EMERGENCE">
-        Me contacter sur WhatsApp
-    </a>
-
-  </div>
-<div class="carte">
-
-    <h2>Moments de transformation en direct live</h2>
-
-    
-
-    <div class="galerie">
-
-        <img src="photo1.jpg" class="photo">
-        <img src="photo2.jpg" class="photo">
-        <img src="photo3.jpg" class="photo">
-
-    </div>
-<p>
-        Des parcours différents,
-        mais un même objectif :
-        retrouver sa place et reprendre confiance.
-    </p>
-
- <a class="bouton" href="https://wa.me/33618777389?text=EMERGENCE">
-        Me contacter sur WhatsApp
-    </a>
-
-
-</div>
-<div class="carte">
-
-    <h2>Retours WhatsApp</h2>
-
-    <p>
-        Derrière chaque message,
-        il y a une personne qui a commencé
-        à comprendre ses mécanismes,
-        retrouver de la clarté
-        et reprendre confiance.
-    </p>
- 
- 
-
-    <div class="galerie">
-
-        <img src="photo4.jpg" class="photo">
-        <img src="photo5.jpg" class="photo">
-        <img src="photo6.jpg" class="photo">
- 	<img src="photo7.jpg" class="photo">
- 	<img src="photo8.jpg" class="photo">
- 	<img src="photo9.jpg" class="photo">
-
-    </div>
- 
-    <p class="citation">
-        “Parfois, quelques prises de conscience
-        suffisent à remettre du mouvement dans une vie.”
-    </p>
-<a class="bouton" href="https://wa.me/33618777389?text=EMERGENCE">
-        Me contacter sur WhatsApp
-    </a>
-
-</div>
-</div>
-    <div class="carte">
-        <p>
-            “Monique après souveraine: Cet accompagnement à transformé ma vie, m'a permis de trouver la paix.”
-        </p>
+    <div class="section-temoignage">
+        <h2>Témoignage Vidéo</h2>
+        <video class="video-temoin" controls>
+            <source src="temoignage1.mp4" type="video/mp4">
+        </video>
     </div>
 
-    <div class="carte">
-        <p>
-            “Samira après emergence: c'est comme si j'avais retrouvée mes lunettes.”
-        </p>
+    <div class="section-temoignage">
+        <h2>Retours en Live TikTok</h2>
+        <div class="galerie">
+            <img src="photo1.jpg" class="photo-preuve">
+            <img src="photo2.jpg" class="photo-preuve">
+            <img src="photo3.jpg" class="photo-preuve">
+        </div>
     </div>
 
-    <div class="carte">
-        <p>
-            “Olivia après emergence: Merci à Laetitia pour cet accompagnement.”
-        </p>
+    <div class="section-temoignage">
+        <h2>Échanges WhatsApp (Pendant le travail)</h2>
+        <div class="galerie">
+            <img src="photo4.jpg" class="photo-preuve">
+            <img src="photo5.jpg" class="photo-preuve">
+            <img src="photo6.jpg" class="photo-preuve">
+            <img src="photo7.jpg" class="photo-preuve">
+            <img src="photo8.jpg" class="photo-preuve">
+            <img src="photo9.jpg" class="photo-preuve">
+        </div>
     </div>
 
-    <a class="bouton" href="contact.html">Me contacter sur whatsapp</a>
+    <div style="text-align: center; margin-top: 50px;">
+        <a class="bouton" style="background-color: #25D366;" href="https://wa.me/33618777389?text=Je%20veux%20en%20savoir%20plus">
+            Échanger avec Laetitia sur WhatsApp
+        </a>
+    </div>
 </section>
-<footer>
-  Accompagnement non médical — en cas de souffrance importante, consultez un professionnel de santé.
 
-    <p>LB Coaching — Laetitia Brussier</p>
-    <p>Neurosciences • Hypnose Ericksonienne • Accompagnement au changement</p>
-    <p>06 18 77 73 89 • emergencelb@gmail.com</p>
-    <p>SIRET : 521 928 481 00014</p>
+<footer>
+    Accompagnement non médical — LB Coaching — Laetitia Brussier
 </footer>
+
 </body>
 </html>
