@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Témoignages — LB Coaching</title>
     <link rel="stylesheet" href="style.css">
+
     <style>
-        .section-temoignage { margin: 40px 0; }
-        .galerie { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; align-items: start; }
-        /* Photos réduites pour gagner en compacité */
-        .photo-preuve { width: 100%; max-width: 200px; border-radius: 8px; border: 1px solid #d8d0c5; display: block; margin: 0 auto; }
-        .video-temoin { width: 100%; max-width: 400px; display: block; margin: 20px auto; border-radius: 8px; }
+        .temoignage-simple {
+            max-width: 420px;
+            margin: 30px auto;
+        }
+
+        .photo-temoignage,
+        .video-temoin {
+            width: 100%;
+            max-width: 320px;
+            border-radius: 18px;
+            margin: 15px auto;
+            display: block;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+        }
+
+        .photo-preuve {
+            width: 100%;
+            max-width: 180px;
+            border-radius: 12px;
+            border: 1px solid #d8d0c5;
+            display: block;
+            margin: 10px auto;
+        }
+
+        .galerie {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .photo-temoignage,
+            .video-temoin {
+                max-width: 260px;
+            }
+
+            .photo-preuve {
+                max-width: 150px;
+            }
+        }
     </style>
 </head>
 
@@ -32,135 +70,51 @@
     Nouveau guide — 10 routines pour sortir du mode survie • 27€
 </a>
 
-
 <section>
-  
-    <h1>Témoignages & Preuves</h1>
 
-<div class="carte">
+    <h1>Témoignages</h1>
 
-    <div class="section-temoignage">
-        <h2>Témoignage Vidéo - Accompagnement 6 mois Souveraine</h2>
+    <p class="citation">
+        “Des retours réels de personnes accompagnées.”
+    </p>
+
+    <div class="carte temoignage-simple">
+        <h2>Sortie de burn-out</h2>
         <video class="video-temoin" controls>
             <source src="temoignage1.mp4" type="video/mp4">
         </video>
+        <p>
+            Retrouver du calme, de la clarté et une stabilité après plusieurs années d’épuisement.
+        </p>
     </div>
-</div>
 
+    <div class="carte temoignage-simple">
+        <h2>Burn-out</h2>
+        <img src="photo1.jpg" class="photo-temoignage">
+        <p>
+            Sortie progressive du perfectionnisme destructeur et du mode survie permanent.
+        </p>
+    </div>
 
-<div class="carte">
-      
-<div class="section-commentaire en direct live">
+    <div class="carte temoignage-simple">
+        <h2>Dépendance affective</h2>
+        <img src="photo2.jpg" class="photo-temoignage">
+        <p>
+            Reprendre sa place, sortir de la dévalorisation et retrouver de la clarté intérieure.
+        </p>
+    </div>
 
-    <h2> Commentaire en direct live - Sortie progressive du burn-out-</h2>
-
-    <img src="photo1.jpg" class="photo-temoignage">
+    <div class="carte temoignage-simple">
+        <h2>Fibromyalgie</h2>
+        <img src="photo3.jpg" class="photo-temoignage">
+        <p>
+            Une renaissance progressive du corps, avec plus d’énergie, d’espoir et de stabilité.
+        </p>
+    </div>
 
     <div class="carte">
+        <h2>Échanges WhatsApp pendant le travail</h2>
 
-        <p>
-            Cette cliente est arrivée en épuisement nerveux avancé de burn out  :
-            hypervigilance,
-            fatigue mentale,
-            besoin de tout contrôler,
-            culpabilité,
-            impossibilité de ralentir.
-        </p>
-
-        <p>
-            Pendant des années,
-            son système nerveux est resté bloqué en mode survie. Impossible de stopper le mode perfectionnisme, qui est destructeur à long terme.
-        </p>
-
-        <p>
-            Aujourd’hui,
-            elle retrouve progressivement :
-            du calme,
-            de la clarté,
-            des limites
-            et une sensation d’apaisement.
-        </p>
-
-    </div>
-
-</div>
-
-
-<div class="section-temoignage">
-
-    <h2> Commentaire en direct live - dépendance affective, dévalorisation -</h2>
-
-    <img src="photo2.jpg" class="photo-temoignage">
-
-    <div class="carte">
-
-        <p>
-            Cette cliente est arrivée complètement perdue émotionnellement :
-            dépendance affective,
-            peur de l’abandon,
-            besoin constant de validation
-            et difficulté à écouter ses propres besoins.
-        </p>
-
-        <p>
-            Son cerveau était constamment tourné vers les autres,
-            au point de s’oublier elle-même.
-        </p>
-
-        <p class="citation">
-            “Je ne me plains plus.”<br>
-            “Je vois plus clair.”<br>
-            “La solitude me fait moins peur.”
-        </p>
-
-    </div>
-
-</div>
-
-
-<div class="section-temoignage">
-
-    <h2> Commentaire en direct live - renaissance progressive du corps, sortie de fibromyalgie -</h2>
-
-    <img src="photo3.jpg" class="photo-temoignage">
-
-    <div class="carte">
-
-        <p>
-            Cette cliente est arrivée dans un état d’épuisement profond :
-            fatigue chronique,
-            douleurs diffuses,
-            hypervigilance
-            et surcharge nerveuse permanente.
-        </p>
-
-        <p>
-            Progressivement,
-            elle a commencé à ralentir,
-            comprendre son système nerveux
-            et écouter son corps autrement.
-        </p>
-
-        <p>
-            Aujourd’hui,
-            elle parle d’une véritable renaissance.
-        </p>
-
-        <p>
-            Sa fibromyalgie a énormément diminué
-            et elle retrouve progressivement énergie,
-            stabilité
-            et espoir, à tel point que le projet de voyage est revenu
-        </p>
-
-    </div>
-</div>
-
-
-<div class="carte">
-
-    <div class="section-temoignage">
-        <h2>Échanges WhatsApp (Pendant le travail)</h2>
         <div class="galerie">
             <img src="photo4.jpg" class="photo-preuve">
             <img src="photo5.jpg" class="photo-preuve">
@@ -170,34 +124,26 @@
             <img src="photo9.jpg" class="photo-preuve">
         </div>
     </div>
-</div>
 
     <div class="carte" style="text-align:center;">
 
-    <h2>
-        Besoin d’échanger ?
-    </h2>
+        <h2>Besoin d’échanger ?</h2>
 
-    <p>
-        Si vous ressentez le besoin de faire le point,
-        de comprendre ce que vous traversez
-        ou d’être accompagnée dans votre reconstruction,
-        contactez-moi directement sur WhatsApp.
-    </p>
+        <p>
+            Si vous ressentez le besoin de faire le point,
+            contactez-moi directement sur WhatsApp.
+        </p>
 
-    <a class="bouton"
-       href="https://wa.me/33618777389?text=EMERGENCE"
-       target="_blank">
+        <a class="bouton"
+        href="https://wa.me/33618777389?text=EMERGENCE"
+        target="_blank">
 
         Me contacter sur WhatsApp
 
-    </a>
+        </a>
 
-</div>
+    </div>
 
-
-
-</div>
 </section>
 
 <footer>
@@ -207,11 +153,11 @@
     <p>Neurosciences • Hypnose Ericksonienne • Accompagnement au changement</p>
     <p>06 18 77 73 89 • emergencelb@gmail.com</p>
     <p>SIRET : 521 928 481 00014</p>
-
 </footer>
 
 <a class="whatsappfixe"
-href="https://wa.me/33618777389?text=Bonjour%20Laetitia%2C%20je%20souhaite%20des%20renseignements.">
+href="https://wa.me/33618777389?text=Bonjour%20Laetitia%2C%20je%20souhaite%20des%20renseignements."
+target="_blank">
 
 WhatsApp
 
