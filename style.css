@@ -186,6 +186,16 @@ ul {
 
 /* GALERIES */
 
+.photo-temoignage {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+
 .galerie {
     display: flex;
     justify-content: center;
@@ -263,6 +273,14 @@ footer p {
         border-radius: 20px;
     }
 
+
+    .photo-temoignage {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+}
+
     .bannierephrase {
         font-size: 16px;
         letter-spacing: 1px;
@@ -330,7 +348,6 @@ footer p {
         width: 140px;
         height: 250px;
     }
-
 }
 
  /* WHATSAPP FLOTTANT */
