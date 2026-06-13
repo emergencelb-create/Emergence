@@ -16,6 +16,11 @@ el.innerHTML = `
 <option value="article15-comprendre-son-systeme-nerveux-pour-reprendre-le-controle.html">Comprendre son système nerveux</option>
 <option value="article16-et-si-tout-etait-lie-a-ton-systeme-nerveux.html">Tout est lié ?</option>
 <option value="article17-qui-suis-je-vraiment.html">Qui suis-je vraiment ?</option>
+<option value="article18-quand-les-professionnels-observent-les-changements.html">
+Quand les professionnels observent les changements
+</option>
+
+
 
 </optgroup>
 
