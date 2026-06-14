@@ -19,7 +19,9 @@ el.innerHTML = `
 <option value="article18-quand-les-professionnels-observent-les-changements.html">
 Quand les professionnels observent les changements
 </option>
-
+<option value="article19-pourquoi-comprendre-ce-qui-vous-arrive-peut-mettre-fin-au-mode-survie.html">
+Pourquoi comprendre ce qui vous arrive
+</option>
 
 
 </optgroup>
