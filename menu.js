@@ -48,6 +48,18 @@ Ton cerveau te ment tous les soirs
 
 </optgroup>
 
+<optgroup label="💚 Témoignages réels">
+
+<option value="article18-quand-les-professionnels-observent-les-changements.html">
+Quand les professionnels observent les changements
+</option>
+
+<option value="article21-remettre-son-corps-en-mouvement-quand-le-systeme-nerveux-est-bloque.html">
+Remettre son corps en mouvement
+</option>
+
+</optgroup>
+
 </select>
 
 `;
