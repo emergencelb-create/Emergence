@@ -25,6 +25,9 @@ Pourquoi comprendre ce qui vous arrive
 <option value="article20-ton-cerveau-te-ment-tous-les-soirs.html">
 Ton cerveau te ment tous les soirs
 </option>
+<option value="article22-comprendre-son-cerveau-pour-arreter-de-subir.html">
+Comprendre son cerveau pour arrêter de subir
+</option>
 
 </optgroup>
 
