@@ -467,7 +467,30 @@ box-shadow:0 8px 20px rgba(0,0,0,.15);
     padding-left: 0;
   }
 }
+@media screen and (max-width: 768px) {
 
+  h1, h2, h3,
+  .grandecitation,
+  .citation {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .carte {
+    box-sizing: border-box;
+    max-width: 94%;
+    overflow: hidden;
+  }
+
+  .bouton {
+    max-width: 100%;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+}
 
 
 /* FOOTER */
