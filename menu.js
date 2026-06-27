@@ -49,9 +49,9 @@ Test de surcharge nerveuse
 <option value="article9-pourquoi-tu-te-reposes-mais-tu-restes-epuisee.html">Repos mais épuisée</option>
 <option value="article13-pourquoi-tu-culpabilises-quand-tu-te-reposes.html">Culpabilité au repos</option>
 <option value="article14-tu-tes-habituee-a-vivre-avec-ton-stress.html">Habituée au stress</option>
-<option value="article25-je-n-arrive-pas-a-me-poser.html">
-J'arrive pas à me poser
-</option>
+<option value="article25-je-n-arrive-pas-a-me-poser.html">J'arrive pas à me poser</option>
+<option value="article26-tu-ne-te-reposes-jamais-vraiment.html">Tu ne te reposes jamais vraiment</option>
+
 
 </optgroup>
 
