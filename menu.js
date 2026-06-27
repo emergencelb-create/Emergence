@@ -31,6 +31,8 @@ Comprendre son cerveau pour arrêter de subir
 <option value="article24-cerveau-contre-moi.html">
 Tu te bats contre ton cerveau depuis des années ?
 </option>
+<option value="article27-emergence-vous-rend-autonome.html">ÉMERGENCE : devenir autonome
+</option>
 
 </optgroup>
 
