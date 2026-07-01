@@ -32,6 +32,8 @@ Comprendre son cerveau pour arrêter de subir
 Tu te bats contre ton cerveau depuis des années ?
 </option>
 <option value="article27-emergence-vous-rend-autonome.html">ÉMERGENCE : devenir autonome
+</option><option value="article28-ton-cerveau-ne-sait-plus-s-arreter.html">
+Ton cerveau ne sait plus s'arrêter
 </option>
 
 </optgroup>
@@ -40,6 +42,9 @@ Tu te bats contre ton cerveau depuis des années ?
 
 <option value="article23-test-surcharge-nerveuse.html">
 Test de surcharge nerveuse
+</option>
+<option value="article29-combien-ca-te-coute-de-ne-pas-comprendre-ton-cerveau.html">
+Combien ça te coûte de ne pas comprendre ton cerveau ?
 </option>
 
 </optgroup>
