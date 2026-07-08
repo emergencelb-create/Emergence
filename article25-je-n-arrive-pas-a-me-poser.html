@@ -1,38 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
 
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel Code (chargé uniquement après consentement, voir bandeau cookies) -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','1715381396153005');
-fbq('track','PageView');
+function initMetaPixel(){
+  if(window._metaPixelLoaded) return;
+  window._metaPixelLoaded = true;
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1715381396153005');
+  fbq('track', 'PageView');
+}
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1715381396153005&ev=PageView&noscript=1"/>
-</noscript>
+<!-- End Meta Pixel Code -->
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>J'arrive pas à me poser | Pourquoi le repos devient inconfortable ? | La Sortie de Survie</title>
 
-<meta name="description"
-content="Tu n'arrives jamais à te poser ? Tu culpabilises dès que tu ralentis ? Découvre pourquoi ton système nerveux peut rendre le repos inconfortable et comment retrouver progressivement un sentiment de sécurité.">
+<meta name="description" content="Tu n'arrives jamais à te poser ? Tu culpabilises dès que tu ralentis ? Découvre pourquoi ton système nerveux peut rendre le repos inconfortable et comment retrouver progressivement un sentiment de sécurité.">
+<meta name="author" content="Laetitia Brussier">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://lasortiedesurvie.fr/article25-je-n-arrive-pas-a-me-poser.html">
 
-<meta name="keywords"
-content="j'arrive pas à me poser, culpabilité repos, cerveau qui tourne, mode survie, hypervigilance, anxiété, burnout, système nerveux, neurosciences, stress chronique">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="La Sortie de Survie">
+<meta property="og:title" content="J'arrive pas à me poser | Pourquoi le repos devient inconfortable ?">
+<meta property="og:description" content="Tu n'arrives jamais à te poser ? Tu culpabilises dès que tu ralentis ? Découvre pourquoi ton système nerveux peut rendre le repos inconfortable et comment retrouver progressivement un sentiment de sécurité.">
+<meta property="og:url" content="https://lasortiedesurvie.fr/article25-je-n-arrive-pas-a-me-poser.html">
+<meta property="og:image" content="https://lasortiedesurvie.fr/images/partage.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="J'arrive pas à me poser | Pourquoi le repos devient inconfortable ?">
+<meta name="twitter:description" content="Tu n'arrives jamais à te poser ? Tu culpabilises dès que tu ralentis ? Découvre pourquoi ton système nerveux peut rendre le repos inconfortable et comment retrouver progressivement un sentiment de sécurité.">
+<meta name="twitter:image" content="https://lasortiedesurvie.fr/images/partage.jpg">
 
 <link rel="stylesheet" href="style.css">
 
@@ -41,30 +51,26 @@ content="j'arrive pas à me poser, culpabilité repos, cerveau qui tourne, mode 
 <body>
 
 <nav>
-<a href="index.html">Accueil</a>
-<a href="qui-suis-je.html">Qui suis-je ?</a>
-<a href="blog.html">Blog</a>
-<a href="boutique.html" style="color:#d4af37;font-weight:bold;">Boutique</a>
-<a href="temoignages.html">Témoignages</a>
-<a href="contact.html">Contact</a>
+  <a href="index.html">Accueil</a>
+  <a href="particulier.html">🟢 Particuliers</a>
+  <a href="professionnels.html">🔵 Professionnels</a>
+  <a href="institut.html">🟠 Institut</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
 <div class="bannierephrase">
-
-Arrêter de tenir. Commencer à vivre.
-
+  Arrêter de tenir. Commencer à vivre.
 </div>
 
-
 <a class="bannierepdf" href="pdfvente10routines.html">
-
-🔥 COMMENCER ICI — Guide 27 €
-<br>
-10 routines pour sortir du mode survie
-
+  🔥 COMMENCER ICI — Guide 27 € — 10 routines pour sortir du mode survie
 </a>
 
+<div class="carte menu-articles"></div>
+
 <section>
+
 
 <div class="carte menu-articles"></div>
 
@@ -95,7 +101,7 @@ style="max-width:605px;min-width:325px;">
 
 <a class="bouton"
 href="https://www.tiktok.com/@lasortiedesurvie/video/7655567580945550624"
-target="_blank">
+target="_blank" rel="noopener">
 
 ▶ Voir la vidéo sur TikTok
 
@@ -290,40 +296,96 @@ Arrête de tenir.
 Commence à vivre.
 
 </p>
-
 </section>
 
-<footer>
-
-Accompagnement non médical — en cas de souffrance importante, consultez un professionnel de santé.
-
-<p>La Sortie de Survie — Laetitia Brussier</p>
-
-<p>
-Neurosciences • Hypnose Ericksonienne • Accompagnement au changement
-</p>
-
-<p>
-06 16 83 62 89 • contact@lasortiedesurvie.fr
-</p>
-
-<p>
-SIRET : 521 928 481 00014
-</p>
-
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-colonne">
+      <h3>💚 LA SORTIE DE SURVIE</h3>
+      <p>Comprendre le cerveau.<br>Apaiser le système nerveux.<br>Retrouver une vie qui vous ressemble.</p>
+      <p class="citation">Arrête de tenir.<br>Commence à vivre.</p>
+    </div>
+    <div class="footer-colonne">
+      <h3>Navigation</h3>
+      <a href="particulier.html">🟢 Particuliers</a>
+      <a href="professionnels.html">🔵 Professionnels</a>
+      <a href="institut.html">🟠 Institut</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-colonne">
+      <h3>Nos accompagnements</h3>
+      <a href="pdfvente10routines.html">📘 Guide 10 routines</a>
+      <a href="programme.html">🌱 ÉMERGENCE</a>
+      <a href="souveraine.html">👑 SOUVERAINE</a>
+      <a href="coaching.html">💬 Appel Clarté</a>
+    </div>
+    <div class="footer-colonne">
+      <h3>À propos</h3>
+      <p>🧪 Ancienne professionnelle du secteur scientifique</p>
+      <p>🌡️ Maladie pendant plus de vingt ans</p>
+      <p>🎓 Formatrice Professionnelle pour Adultes diplômée d'État</p>
+      <p>🧠 Neurosciences • Hypnose Ericksonienne • Ennéagramme</p>
+      <p>💚 Accompagnement au changement</p>
+    </div>
+    <div class="footer-colonne">
+      <h3>Contact</h3>
+      <p>📞 06 16 83 62 89</p>
+      <p>✉ contact@lasortiedesurvie.fr</p>
+      <p>SIRET : 521 928 481 00014</p>
+    </div>
+  </div>
+  <hr>
+  <p class="footer-bas">Accompagnement non médical. Les contenus proposés ne remplacent ni un avis médical, ni un traitement, ni un suivi par un professionnel de santé lorsque celui-ci est nécessaire.</p>
+  <p class="footer-bas">© 2026 La Sortie de Survie — Fondée par Laetitia Brussier</p>
 </footer>
 
-<a class="whatsappfixe"
-href="https://wa.me/33616836289?text=Bonjour%20Laetitia%2C%20je%20souhaite%20des%20renseignements."
-target="_blank">
+<a href="https://wa.me/33616836289?text=HELP" class="whatsappfixe" target="_blank" rel="noopener">💬 WhatsApp</a>
 
-WhatsApp
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <p>Ce site utilise des cookies de mesure d'audience et publicitaires (Meta Pixel) afin de comprendre la navigation et proposer des publicités pertinentes. Ces cookies ne sont pas essentiels : vous pouvez les refuser sans que cela affecte votre navigation.</p>
+  <div class="cookie-boutons">
+    <button id="cookie-refuser" class="cookie-btn cookie-refuser" type="button">Refuser</button>
+    <button id="cookie-accepter" class="cookie-btn cookie-accepter" type="button">Accepter</button>
+  </div>
+</div>
 
-</a>
+<script>
+(function(){
+  var consent = localStorage.getItem('lsds_cookie_consent');
+  var banner = document.getElementById('cookie-banner');
+
+  function showBanner(){
+    banner.hidden = false;
+    document.body.classList.add('has-cookie-banner');
+  }
+  function hideBanner(){
+    banner.hidden = true;
+    document.body.classList.remove('has-cookie-banner');
+  }
+
+  if(consent === 'accepted'){
+    if(typeof initMetaPixel === 'function') initMetaPixel();
+  } else if(consent === 'refused'){
+    hideBanner();
+  } else {
+    showBanner();
+  }
+
+  document.getElementById('cookie-accepter').addEventListener('click', function(){
+    localStorage.setItem('lsds_cookie_consent','accepted');
+    if(typeof initMetaPixel === 'function') initMetaPixel();
+    hideBanner();
+  });
+
+  document.getElementById('cookie-refuser').addEventListener('click', function(){
+    localStorage.setItem('lsds_cookie_consent','refused');
+    hideBanner();
+  });
+})();
+</script>
 
 <script src="menu.js"></script>
 
 </body>
-
 </html>
-
