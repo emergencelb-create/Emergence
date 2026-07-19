@@ -38,6 +38,9 @@ Ton cerveau ne sait plus s'arrêter
 <option value="article30-la-vraie-reussite.html">
 La vraie réussite, ce n'est pas ce que tu montres
 </option>
+<option value="article31-medecin-et-coach-deux-roles-complementaires.html">
+Médecin et coach : deux rôles complémentaires
+</option>
 
 </optgroup>
 
